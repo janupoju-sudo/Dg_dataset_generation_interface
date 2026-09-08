@@ -1,0 +1,24 @@
+# virtual environment — never commit this, it's hundreds of MB and machine-specific
+.venv/
+venv/
+env/
+
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# editor / tooling
+.claude/
+.vscode/
+.idea/
+
+# generated datasets — regenerable from the app, and they churn.
+# Delete the next line if you want the data versioned alongside the code.
+datasets/
+
+# scratch
+*.log
